@@ -110,8 +110,6 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product-if-exists, packages/services/VncFlinger/product.mk)
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/voltage/config/device_framework_matrix.xml
-
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= $(TARGET_SUPPORTS_64_BIT_APPS)
 
